@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="scaff",
+    name="dircraft",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -10,7 +10,8 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "scaff = scaff.cli:main",
+            "dircraft = dircraft.cli:main",
+            "dircraft-gui = dircraft.gui:main",
         ],
     },
     classifiers=[
