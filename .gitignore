@@ -1,2 +1,14 @@
 structure.txt
 structure.yaml
+*.log
+*.cache
+cache/
+__pycache__/
+*.pyc
+method.md
+.DS_Store
+*.egg-info
+*.egg
+*.whl
+*.tar.gz
+.pytest_cache
